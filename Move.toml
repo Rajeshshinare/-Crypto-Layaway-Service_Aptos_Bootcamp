@@ -1,0 +1,15 @@
+[package]
+name = "Crypto_Layaway_Service"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = '0xf3e18aa111ed5738f724a88427df0c7889f212dc6f20aace8d4f8cb932450a73'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
